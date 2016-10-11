@@ -1,0 +1,25 @@
+{
+  "name": "mandatoory",
+  "version": "1.0.0",
+  "description": "abe",
+  "main": "appMandatory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TroelsHelboJensen/Mandatories.git"
+  },
+  "keywords": [
+    "Mandatory"
+  ],
+  "author": "Lord Ni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TroelsHelboJensen/Mandatories/issues"
+  },
+  "homepage": "https://github.com/TroelsHelboJensen/Mandatories#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
