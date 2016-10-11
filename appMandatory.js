@@ -3,6 +3,8 @@ var app = express();
 
 var libAbout = require('./lib/about.json');
 
+
+
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
@@ -10,7 +12,8 @@ app.get('/', function(req, res) {
 		title: "Mandatory Assignment",
 		subtitle: "Express and",
 		text: " ejs",
-		author: "Made by Lord Ni"
+		author: "Made by Lord Ni",
+		link: libAbout.link
 	});
 });
 
